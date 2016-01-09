@@ -27,7 +27,11 @@ nav ul li a {display: block; color: #000; text-decoration: none; padding: 4px 10
 nav ul li a:hover {background-color: #8B0000; color: #fff;}
 
 /* content */
-.content {display: block; position: relative; margin: 30px;}
+.content {display: block; position: relative; margin: 30px; overflow: hidden;}
+    .about_info {display: block; position: relative; float: left; width: 60%; margin-right: 5%;}
+    .about_table {display: block; position: relative; float: right; width: 30%;}
+    .about_table td {width: 200px;}
+.about_table tr:nth-child(odd) {background-color: #FF9999;}
 .content h1 {font-size: 25px; text-align: center}
 .content p {margin: 10px 30px;}
 .content .p_ul {margin: 10px 50px;}
