@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>title</title>
+  		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+  		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+                <img src="img/header.png" alt="header-img">
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">ГЛАВНАЯ</a></li>
+                    <li><a href="menu.html">МЕНЮ</a></li>
+                    <li><a href="galery.html">ГАЛЕРЕЯ</a></li>
+                    <li><a href="order.html">ЗАКАЗ</a></li>
+                    <li><a href="about.html">О НАС</a></li>
+                    <li><a href="contacts.html">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+            <!-- content -->
+			<div class="content">
+				<div class="order_form">
+                    <form>
+                        <h5>Для брони столика заполните следующую форму. После нажатия кнопки "заказать" с вами свяжется администратор</h5>
+                        <div class="form_row">
+                            <span label="r_address">Адрес:</span>
+                            <select id="r_address">
+                                <option value="1">ул. Б.Хмельницкого, 7</option>
+                                <option value="2">ул. Кальварийская, 42</option>
+                            </select>
+                        </div>
+                        <div class="form_row">
+                            <span label="r_seats">Столик:</span>
+                            <select id="r_seats">
+                                <option value="1">2 персоны</option>
+                                <option value="2">3 персоны</option>
+                                <option value="3">4 персоны</option>
+                                <option value="4">5 персон</option>
+                                <option value="5">6 персон</option>
+                                <option value="6">7 персон</option>
+                                <option value="7">8 персон</option>
+                            </select>
+                        </div>
+                        <div class="form_row">
+                            <span label="r_hall">Зал:</span>
+                            <select id="r_hall">
+                                <option value="1">Некурящий</option>
+                                <option value="2">Курящий</option>
+                            </select>
+                        </div>
+                        <div class="form_row">
+                            <span label="r_date">Дата:</span>
+                            <input id="r_date" type="date">
+                        </div>
+                        <div class="form_row">
+                            <span label="r_name">Имя:</span>
+                            <input id="r_name" type="text">
+                        </div>
+                        <div class="form_row">
+                            <span label="r_phone">Телефон:</span>
+                            <input id="r_phone" type="number">
+                        </div>
+                        <div class="form_row">
+                            <button>Заказать</button>
+                        </div>
+                    </form>
+                </div>
+			</div>
+			<!-- /content -->
+            <footer>
+                <div class="footer_wrapper">
+                    <div class="logo">
+                        <img src="img/logo.jpg" alt="logo" />
+                    </div>
+                    <div class="f_nav clr">
+                        <ul>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="menu.html">Меню</a></li>
+                            <li><a href="galery.html">Галерея</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="order.html">Заказ</a></li>
+                            <li><a href="about.html">О нас</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>(c) copyright 2016</p>
+                </div>
+            </footer>
+		</div>
+	</body>
+</html>

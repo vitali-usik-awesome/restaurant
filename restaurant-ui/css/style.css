@@ -40,6 +40,15 @@ nav ul li a:hover {background-color: #8B0000; color: #fff;}
 .content p {margin: 10px 30px;}
 .content .p_ul {margin: 10px 50px;}
 
+.order_form {display: block; position: relative; margin: auto; width: 550px; border: 1px solid #8B0000;}
+.order_form h5 {text-align: center; margin: 10px; width: 520px;}
+.form_row {display: block; position: relative; overflow: hidden; height: 34px; margin-bottom: 5px;}
+.form_row span {display: block; position: relative; float: left; width: 200px; margin-left: 40px; line-height: 34px;}
+.form_row select {display: block; position: relative; float: left; width: 300px; height: 30px; margin-right: 10px;}
+.form_row option {height: 30px; line-height: 34px; margin-right: 10px;}
+.form_row input {display: block; position: relative; float: left; width: 295px; height: 30px; margin-right: 10px;}
+.form_row button {display: block; position: relative; width: 100px; height: 30px; margin: auto; cursor: pointer;}
+
 /* footer */
 footer {display: block; position: relative; overflow: hidden; border: 1px solid #8B0000;}
 .footer_wrapper {display: block; position: relative; overflow: hidden;}
