@@ -49,6 +49,11 @@ nav ul li a:hover {background-color: #8B0000; color: #fff;}
 .form_row input {display: block; position: relative; float: left; width: 295px; height: 30px; margin-right: 10px;}
 .form_row button {display: block; position: relative; width: 100px; height: 30px; margin: auto; cursor: pointer;}
 
+.gallery_wrapper h3 {text-align: center; color: #8B0000;}
+.gw_row {margin: 15px 0;}
+.gw_row a {margin: 15px;}
+.gw_row a img {max-width: 250px;}
+
 /* footer */
 footer {display: block; position: relative; overflow: hidden; border: 1px solid #8B0000;}
 .footer_wrapper {display: block; position: relative; overflow: hidden;}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>title</title>
+  		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+  		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <script src="fancybox/jquery-1.9.0.min.js"></script>
+        <link rel="stylesheet" href="fancybox/jquery.fancybox.css">
+        <script src="fancybox/jquery.fancybox.pack.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+                <img src="img/header.png" alt="header-img">
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">ГЛАВНАЯ</a></li>
+                    <li><a href="menu.html">МЕНЮ</a></li>
+                    <li><a href="galery.html">ГАЛЕРЕЯ</a></li>
+                    <li><a href="order.html">ЗАКАЗ</a></li>
+                    <li><a href="about.html">О НАС</a></li>
+                    <li><a href="contacts.html">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+            <!-- content -->
+			<div class="content">
+				<div class="gallery_wrapper">
+                    <h3>Фотогаллерея</h3>
+                    <div class="gw_row">
+                        <a class="fancybox-thumb" rel="fancybox-thumb" href="media/limon01.jpg">
+                            <img src="media/limon01.jpg" alt=""/>
+                        </a>
+                        <a class="fancybox-thumb" rel="fancybox-thumb" href="media/limon02.jpg">
+                            <img src="media/limon02.jpg" alt=""/>
+                        </a>
+                        <a class="fancybox-thumb" rel="fancybox-thumb" href="media/limon03.jpg">
+                            <img src="media/limon03.jpg" alt=""/>
+                        </a>
+                        <a class="fancybox-thumb" rel="fancybox-thumb" href="media/limon04.jpg">
+                            <img src="media/limon04.jpg" alt=""/>
+                        </a>
+                    </div>
+                    <div class="gw_row">
+                        <a class="fancybox-thumb" rel="fancybox-thumb" href="media/limon07.jpg">
+                            <img src="media/limon07.jpg" alt=""/>
+                        </a>
+                        <a class="fancybox-thumb" rel="fancybox-thumb" href="media/limon08.jpg">
+                            <img src="media/limon09.jpg" alt=""/>
+                        </a>
+                        <a class="fancybox-thumb" rel="fancybox-thumb" href="media/limon09.jpg">
+                            <img src="media/limon09.jpg" alt=""/>
+                        </a>
+                        <a class="fancybox-thumb" rel="fancybox-thumb" href="media/limon10.jpg">
+                            <img src="media/limon10.jpg" alt=""/>
+                        </a>
+                    </div>
+                    <div class="gw_row">
+                        <a class="fancybox-thumb" rel="fancybox-thumb" href="media/limon11.jpg">
+                            <img src="media/limon11.jpg" alt=""/>
+                        </a>
+                        <a class="fancybox-thumb" rel="fancybox-thumb" href="media/limon12.jpg">
+                            <img src="media/limon12.jpg" alt=""/>
+                        </a>
+                        <a class="fancybox-thumb" rel="fancybox-thumb" href="media/limon13.jpg">
+                            <img src="media/limon13.jpg" alt=""/>
+                        </a>
+                        <a class="fancybox-thumb" rel="fancybox-thumb" href="media/limon14.jpg">
+                            <img src="media/limon14.jpg" alt=""/>
+                        </a>
+                    </div>
+                    
+                    
+                    
+                </div>
+                
+                
+			</div>
+			<!-- /content -->
+            <footer>
+                <div class="footer_wrapper">
+                    <div class="logo">
+                        <img src="img/logo.jpg" alt="logo" />
+                    </div>
+                    <div class="f_nav clr">
+                        <ul>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="menu.html">Меню</a></li>
+                            <li><a href="galery.html">Галерея</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="order.html">Заказ</a></li>
+                            <li><a href="about.html">О нас</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>(c) copyright 2016</p>
+                </div>
+            </footer>
+		</div>
+        <script>
+            $(document).ready(function() {
+                $(".fancybox-thumb").fancybox({
+                    prevEffect	: 'none',
+                    nextEffect	: 'none',
+                    helpers	: {
+                        title	: {
+                            type: 'outside'
+                        },
+                        thumbs	: {
+                            width	: 50,
+                            height	: 50
+                        }
+                    }
+                });
+            });
+        </script>
+	</body>
+</html>
