@@ -54,6 +54,16 @@ nav ul li a:hover {background-color: #8B0000; color: #fff;}
 .gw_row a {margin: 15px;}
 .gw_row a img {max-width: 250px;}
 
+.menu_wrapper {width: 750px; margin: auto;}
+.menu_wrapper h2 {text-align: center; color: #8B0000; margin-bottom: 20px;}
+.menu_item {display: block; position: relative; overflow: hidden; width: 750px; border: 1px solid #8B0000; border-bottom: 0px none;}
+.menu_item:last-child {border-bottom: 1px solid #8B0000;}
+    .menu_item .mi_left {float: left; width: 470px; margin: 0 30px;}
+        .mi_left h3 {margin-top: 10px;}
+        .mi_left p {margin: 10px 0;}
+    .menu_item .mi_right {float: right; width: 200px; margin-right: 20px; text-align: right;}
+        .mi_right h3 {margin-top: 10px;}
+
 /* footer */
 footer {display: block; position: relative; overflow: hidden; border: 1px solid #8B0000;}
 .footer_wrapper {display: block; position: relative; overflow: hidden;}
